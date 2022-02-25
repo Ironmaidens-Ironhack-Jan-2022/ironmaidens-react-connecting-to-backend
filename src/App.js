@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import { Route, Routes } from 'react-router';
 import ApartmentsList from './components/ApartmentsList';
 import ApartmentDetails from './components/ApartmentDetails';
+import CreateApartment from './components/CreateApartment';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/apartments/create" element={<CreateApartment />}></Route>
         <Route path="/apartments" element={<ApartmentsList />}></Route>
         <Route path="/apartments/:id" element={<ApartmentDetails />}></Route>
       </Routes>
