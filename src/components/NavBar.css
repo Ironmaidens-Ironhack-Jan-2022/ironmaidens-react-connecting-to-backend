@@ -1,0 +1,10 @@
+.NavBar {
+    padding: 2rem;
+}
+.NavBar a {
+    padding: 2rem;
+    color: blue;
+}
+.NavBar a.active {
+    color: fuchsia;
+}
