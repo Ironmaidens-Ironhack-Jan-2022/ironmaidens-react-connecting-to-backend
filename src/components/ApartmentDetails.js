@@ -9,7 +9,7 @@ function ApartmentDetails() {
   const [details, setDetails] = useState(undefined);
 
   useEffect( () => {
-    axios.get(`https://ironbnb-m3.herokuapp.com/apartments/${id}`)
+    axios.get(`${process.env.REACT_APP_API_BASE_URL}/apartments/${id}`)
       .then( response => {
         setDetails(response.data);
       })
