@@ -52,9 +52,9 @@ path="/apartments/create"
 ## Improvements
 
 - [x] Store API baseUrl in .env
-- [ ] Single API call to get the info (Instead of calling the API in <ApartmentsList> and <ApartmentDetails>)
-  - Make one single call to the API in <App>
-  - Pass the info as props to <ApartmentsList> and <ApartmentDetails>
+- [ ] Single API call to get the info (Instead of calling the API in `<ApartmentsList>` and `<ApartmentDetails>`)
+  - Make one single call to the API in `<App>`
+  - Pass the info as props to `<ApartmentsList>` and `<ApartmentDetails>`
 - [ ] Conditional rendering
 - [ ] Display spinner/loader while data is loading
 - [ ] Apply different ways to add style in React (inline styles, plain css with one file per component, scss...)
